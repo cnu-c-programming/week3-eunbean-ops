@@ -22,6 +22,8 @@ void my_sum(int type, int count,...){
         }
         printf("%d", sum);
     }
+
+    va_end(ap);
 }
 
 int main(){
